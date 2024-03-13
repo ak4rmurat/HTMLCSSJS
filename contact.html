@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Murat AKAR - Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class = "header">
@@ -11,8 +12,34 @@
         <div class = "menu"><h2><a href="index.html">HOME</a> | <a href="resume.html">RESUME</a> | CONTACT</h2></div> 
      </div>
  
-     <div class = "body">
-         <br><br><br><br><br><br>
+     <div class = "content">
+        <div class = "section">
+            <div class = "card">
+                <form action="savaToDB.js">
+                    <div class = "form-row">
+                        <label for="firstname">First Name:</label>                        
+                    </div>
+                    <input type="text" name = "firstname">
+                    <div class = "form-row">
+                        <label for="lastname">Last Name:</label>                       
+                    </div>
+                    <input type="text" name = "lastname">
+                    <div class = "form-row">
+                        <label for="Email">E mail:</label>                       
+                    </div>
+                    <input type="email" name = "email">
+                    <div class = "form-row">
+                        <label for="phone">Phone Number:</label>                        
+                    </div>
+                    <input type="tel" name = "phone">
+                    <div class = "form-row">
+                        <label for="message">Your Message:</label>                        
+                    </div> 
+                    <textarea name="message" cols="30" rows="10"></textarea> <br>
+                    <button type = "submit">SEND</button>      <button type = "reset">CLEAR</button>                
+                </form>
+            </div>
+        </div>
      </div>
  
      <div class = "footer">
